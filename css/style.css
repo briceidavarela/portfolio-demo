@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  
+  background-color: #082d43;
+  color: #e8e8e8;
 }
 
 
@@ -41,3 +42,32 @@ p {
 a {
 
 }
+
+/*Nav*/
+#nav{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#nav li {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 40px;
+  }
+
+  #nav li:hover {
+    color: #298DFF;
+    transform: scale(5);
+    border-bottom: 3px solid #298DFF;
+    background-color:blue;
+    margin-right: 60px;
+    transform: rotate(20deg);
+    transition-duration: 500ms;
+    cursor: pointer;
+  }
+
+  /* Page Layout */
+.section {
+    min-height: 100vh;
+  }
